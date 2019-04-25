@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* Commands needed to save:
+* git init
+* git add --all
+* git commit -am "Initial commit"
+* git push origin master
+
+* Commands needed to initialize:
+* service postgresql start
