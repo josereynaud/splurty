@@ -1,6 +1,6 @@
 class QuotesController < ApplicationController
     def index
-        @quote = Quote.order("RANDOM()").git push heroku masterfirst
+        @quote = Quote.order("RANDOM()").first
         
     end
 end
