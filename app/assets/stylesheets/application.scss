@@ -14,6 +14,7 @@
  *= require_self
  */
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
 .clear {
     clear: both;
@@ -46,19 +47,40 @@
 }
 
 .links{
-    padding-top: 26px;
+     padding-top: 26px;
 }
 
 .links a {
-  color: black;
-  font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+     color: black;
+     font-size: 25px;
+     border-bottom: 1px solid #dfdfdf;
+}
+
+.next-quote {
+    color:#f84342;
+    font-family: 'Gochi Hand', cursive;
+    font-size:20px;
+}
+
+.footer-blurb {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-style: italic;
+    text-align: right;
+    font-size: 10px;
 }
 
 header {
-  border-top: 9px solid #222222;
+     border-top: 9px solid #222222;
 }
 
 hr {
-  clear:both;
+     clear:both;
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+ }
+
+h2 {
+    font-family: 'Gochi Hand', cursive;
 }
