@@ -14,7 +14,6 @@
  *= require_self
  */
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
 .clear {
     clear: both;
@@ -54,11 +53,13 @@
      color: black;
      font-size: 25px;
      border-bottom: 1px solid #dfdfdf;
+     font-family: 'nobileregular', sans-serif;
+     font-weight: bold;
 }
 
 .next-quote {
     color:#f84342;
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'nobileregular', sans-serif;
     font-size:20px;
 }
 
@@ -83,13 +84,34 @@ hr {
 }
 
 h1 {
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'nobileregular', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
  }
 
 h2 {
-    font-family: 'Gochi Hand', cursive;
+  font-family: 'nobilemedium_italic', sans-serif;
 }
 
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'nobileregular', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
 }

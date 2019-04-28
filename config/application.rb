@@ -17,3 +17,9 @@ module RailsTestApp
     # the framework and any gems in your application.
   end
 end
+
+    # Add the fonts path
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
+
+    # Precompile additional assets
+    config.assets.precompile += %w( .svg .eot .woff .ttf )
