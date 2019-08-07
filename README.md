@@ -1,33 +1,17 @@
-# README
+# Splurty
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A database-powered quote generator using Ruby on Rails framework, HTML and CSS.
 
-Things you may want to cover:
+## [Try it yourself!](https://splurty-jose-reynaud.herokuapp.com/)
 
-* Ruby version
+![splurty_splash](https://user-images.githubusercontent.com/49926440/62587525-70df6200-b890-11e9-8c9b-13324f7bf28c.png)
 
-* System dependencies
+## Built With
 
-* Configuration
+* [Ruby on Rails](https://rubyonrails.org/) - Ruby framework
+* [PostgreSQL](https://www.postgresql.org/) - SQL database
+* [Bootstrap](https://getbootstrap.com/) - CSS framework
 
-* Database creation
+## Authors
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-* Commands needed to save:
-* git init
-* git add --all
-* git commit -am "Initial commit"
-* git push origin master
-
-* Commands needed to initialize:
-* service postgresql start
+See contribution history [here](https://github.com/josereynaud/splurty/graphs/contributors)
